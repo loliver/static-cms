@@ -45,7 +45,7 @@ Promise.all(content)
   .then(data => template({ content: data }).replace(/\n\s+\n/g, '\n'))
   .then(data => fs.writeFileSync(path.resolve(output), data, 'utf8'))
   .then(() => {
-    console.info(`📦  => Wrote ${output} for @anz/static-cms`)
+    console.info(`📦  => Wrote ${output} for static-cms`)
     process.exit()
   })
   .catch(console.error)
