@@ -1,6 +1,6 @@
 {
   "name": "static-cms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Directory tree parsing to build a Markdown powered CMS",
   "bin": {
     "static-cms": "bin/node.js"
